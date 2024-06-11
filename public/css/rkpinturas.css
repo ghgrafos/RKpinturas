@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+.picture {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.responsive {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
