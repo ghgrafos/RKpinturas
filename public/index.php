@@ -1,4 +1,5 @@
 <?php
+    // For built-in server
 if (PHP_SAPI === 'cli-server') {
     $_SERVER['PHP_SELF'] = '/' . basename(__FILE__);
 
@@ -8,8 +9,7 @@ if (PHP_SAPI === 'cli-server') {
         return false;
     }
 }
+require dirname(__DIR__) . '/vendor/autoload.php';
 
-require('public/index.php');
-//include('index.html');
-
+require('core/bootstrap.php');
 ?>
